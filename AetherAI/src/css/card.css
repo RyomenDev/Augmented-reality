@@ -1,0 +1,29 @@
+.object-detection .image-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.object-detection .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.object-detection .card h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.object-detection .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
