@@ -1,0 +1,24 @@
+/* styles.css or your main CSS file */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.copy-container {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}

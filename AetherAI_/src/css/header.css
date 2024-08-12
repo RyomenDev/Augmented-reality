@@ -1,0 +1,55 @@
+/* header.css */
+.bg-blue-500 {
+    background-color: #4299e1;
+    /* Tailwind's blue-500 */
+}
+
+.text-white {
+    color: #fff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-x-8>*+* {
+    margin-left: 2rem;
+    /* Tailwind's space-x-8 equivalent */
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
